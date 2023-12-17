@@ -28,7 +28,7 @@ read -p "Enter the link to the server.jar (type 'none' or leave blank for defaul
 
 # Download server JAR
 if [ -z "$server_jar_link" ] || [ "$server_jar_link" == "none" ]; then
-    server_jar_link="https://launcher.mojang.com/v1/objects/5d3fe71733cfd2499c2f67be9bcf6fb8c6b439b1/server.jar"
+    server_jar_link="https://piston-data.mojang.com/v1/objects/5b868151bd02b41319f54c8d4061b8cae84e665c/server.jar"
 fi
 wget "$server_jar_link" -O server.jar
 
